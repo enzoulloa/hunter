@@ -3,7 +3,7 @@ import coma from '../assets/icons/QuoteIcon.svg'
 const Testimonials = () => {
   return (
     <section className=' mt-20 max-w-3xl mx-auto text-center relative'>
-      <div className='z-10 left-0 right-0 block overflow-hidden h-full whitespace-nowrap relative mb-20'>
+      <div className='z-10 left-0 right-0 block overflow-hidden h-full whitespace-nowrap relative '>
         <div className=' align-top w-full h-full whitespace-normal text-left snap-x flex overflow-x-auto gap-6 p-4'>
           <div className=' flex flex-col justify-start items-center w-full shrink-0 snap-center'>
             <p className=' mb-5 text-2xl italic text-center font-normal leading-[1.788]'>Hunter is a very professional and creative photographer. Hunter has plenty of ideas to make the pictures clear and interesting. We look forward to working with him again soon.</p>
