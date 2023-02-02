@@ -1,9 +1,10 @@
+import Header from './layout/Header'
 
 function App () {
   return (
-    <div>
-      <h1>Hunter</h1>
-    </div>
+    <>
+      <Header />
+    </>
   )
 }
 
