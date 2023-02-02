@@ -1,3 +1,4 @@
+import Form from './Form'
 import image from '../assets/HunterHeroImage.png'
 
 const Contact = () => {
@@ -10,6 +11,7 @@ const Contact = () => {
           <p className=' max-w-xl text-white text-opacity-50 text-lg leading-loose'>Lets connect! I'd love hear about your story and how I might be able to help through photography.</p>
           <a className=' mt-10 py-4 px-10 rounded bg-secondary text-primary_dark text-sm font-extrabold tracking-widest uppercase cursor-pointer' href=''>Email me</a>
         </div>
+        <Form />
       </div>
     </section>
   )
