@@ -1,5 +1,6 @@
 import Work from './Work'
 import { image1, image2, image3 } from '../data/data'
+
 const Works = () => {
   return (
     <section className=' bg-primary_dark py-20 w-full px-5 max-w-7xl mx-auto'>
