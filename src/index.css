@@ -11,3 +11,14 @@
     scroll-behavior: smooth;
   }
 }
+.activeLine1 {
+  @apply rotate-45 origin-left translate-x-[-2px] translate-y-[1px];
+}
+
+.activeLine2 {
+  @apply -translate-x-2 opacity-0;
+}
+
+.activeLine3 {
+  @apply -rotate-45 origin-left translate-x-[-2px] translate-y-[2px];
+}

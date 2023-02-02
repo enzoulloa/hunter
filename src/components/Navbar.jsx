@@ -1,5 +1,6 @@
 import logo from '../assets/icons/LogoIcon.svg'
 import text from '../assets/icons/HunterText.svg'
+import BurgerIcon from './BurgerIcon'
 
 const Navbar = () => {
   return (
@@ -12,7 +13,7 @@ const Navbar = () => {
       <button className=' w-[140px] h-[60px] rounded bg-secondary text-primary_dark text-sm font-extrabold tracking-widest cursor-pointer'>
         <div className=' flex w-full h-full px-5 justify-between items-center'>
           <p className=' uppercase'>Menu</p>
-          <span>icon</span>
+          <BurgerIcon />
         </div>
       </button>
 
