@@ -8,9 +8,13 @@
     background-color: #021b29;
     line-height: 20px;
     color: #fff;
-    scroll-behavior: smooth;
   }
 }
+
+:root {
+  @apply scroll-smooth;
+}
+
 .activeLine1 {
   @apply rotate-45 origin-left translate-x-[-2px] translate-y-[1px];
 }
