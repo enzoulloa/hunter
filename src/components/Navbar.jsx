@@ -18,15 +18,15 @@ const Navbar = () => {
         <img className=' w-[60px] left-[55px] max-w-full border-none absolute' src={text} alt='Hunter' />
       </a>
 
-      <button onClick={handleClick} className={` w-[140px] h-[60px] bg-secondary text-primary_dark text-sm font-extrabold tracking-widest cursor-pointer ${isActive ? 'rounded-t' : ' rounded'}`}>
+      <button onClick={handleClick} className={` w-[140px] h-[60px] bg-secondary text-primary_dark text-sm font-extrabold tracking-widest cursor-pointer ${isActive ? 'rounded-t' : ' rounded'} z-30`}>
         <div className=' flex w-full h-full px-5 justify-between items-center'>
           <p className=' uppercase'>Menu</p>
           <BurgerIcon toggle={isActive} />
         </div>
       </button>
       {
-  isActive && <NavMenu />
-}
+        isActive && <NavMenu active={isActive} />
+      }
     </nav>
   )
 }

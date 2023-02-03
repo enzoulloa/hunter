@@ -12,6 +12,15 @@ module.exports = {
       },
       fontFamily: {
         Inter: ['Inter', 'sans serif']
+      },
+      keyframes: {
+        height: {
+          from: { height: '0px' },
+          to: { height: '180px' }
+        }
+      },
+      animation: {
+        heightAnimation: 'height 1s ease 0s 1 normal both'
       }
     }
   },
