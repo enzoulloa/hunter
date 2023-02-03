@@ -1,5 +1,12 @@
+import { useState } from 'react'
 
 const Work = ({ image, number, title, category }) => {
+  const [button, setButton] = useState(false)
+
+  const handleClick = () => {
+    setButton(!button)
+  }
+
   return (
     <article className='w-full flex flex-col items-stretch'>
       <div className=' flex flex-col items-start justify-between mb-5'>
@@ -17,7 +24,7 @@ const Work = ({ image, number, title, category }) => {
          }
         </div>
       </div>
-      <div className=' grid gap-5 grid-cols-2 overflow-hidden w-full h-[240px] '>
+      <div className={` grid gap-5 grid-cols-2 overflow-hidden w-full will-change-[height] transition-all duration-700 ease-in ${button ? 'h-full' : ' h-[240px] '} `}>
         {
           image.map((image, id) => {
             return (
@@ -26,7 +33,7 @@ const Work = ({ image, number, title, category }) => {
           })
         }
       </div>
-      <button className=' flex mt-5 py-4 px-12 justify-between items-center self-end rounded bg-secondary text-primary text-sm tracking-widest uppercase font-extrabold cursor-pointer'>View full gallery</button>
+      <button onClick={handleClick} className=' flex mt-5 py-4 px-12 justify-between items-center self-end rounded bg-secondary text-primary text-sm tracking-widest uppercase font-extrabold cursor-pointer'>View full gallery</button>
 
     </article>
   )
