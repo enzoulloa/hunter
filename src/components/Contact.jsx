@@ -3,7 +3,7 @@ import image from '../assets/HunterHeroImage.png'
 
 const Contact = () => {
   return (
-    <section className=' py-20 w-full px-5 max-w-7xl mx-auto'>
+    <section id='contact' className=' py-20 w-full px-5 max-w-7xl mx-auto'>
       <div className=' grid grid-cols-1 items-center content-center gap-20'>
         <div className=' flex flex-col items-start'>
           <img className=' w-32 mb-5 border-secondary border-2 rounded-full' src={image} alt='Hunter' />
