@@ -24,7 +24,7 @@ const Work = ({ image, number, title, category }) => {
          }
         </div>
       </div>
-      <div className={` grid gap-5 grid-cols-2 overflow-hidden w-full will-change-[height] transition-all duration-700 ease-in ${button ? '' : ' h-[240px] '} `}>
+      <div className={` grid gap-5 grid-cols-2 overflow-hidden w-full will-change-[height] transition-height duration-300 ease-out ${button ? 'h-[630px]' : ' h-[240px] '} `}>
         {
           image.map((image, id) => {
             return (

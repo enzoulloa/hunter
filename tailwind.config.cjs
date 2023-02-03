@@ -19,6 +19,9 @@ module.exports = {
           to: { height: '180px' }
         }
       },
+      transitionProperty: {
+        height: 'height'
+      },
       animation: {
         heightAnimation: 'height 1s ease 0s 1 normal both'
       }
