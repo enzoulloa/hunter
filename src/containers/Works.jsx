@@ -1,4 +1,4 @@
-import Work from './Work'
+import Work from '../components/Work'
 import { image1, image2, image3 } from '../data/data'
 
 const Works = () => {

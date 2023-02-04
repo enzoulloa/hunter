@@ -1,4 +1,4 @@
-import Testimonials from './Testimonials'
+import Testimonials from '../components/Testimonials'
 const Clients = () => {
   return (
     <section id='clients' className=' bg-primary_dark py-20 px-5 w-full max-w-7xl mx-auto'>
