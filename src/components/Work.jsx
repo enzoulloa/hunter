@@ -1,9 +1,10 @@
 import { useState } from 'react'
+import Image from './Image'
 
-const Work = ({ image, number, title, category }) => {
+const Work = ({ images, number, title, category }) => {
   const [button, setButton] = useState(false)
 
-  const handleClick = () => {
+  const handleButtonClick = () => {
     setButton(!button)
   }
 
@@ -26,15 +27,14 @@ const Work = ({ image, number, title, category }) => {
       </div>
       <div className={` grid gap-5 grid-cols-2 overflow-hidden w-full will-change-[height] transition-height duration-300 ease-out ${button ? 'h-[630px]' : ' h-[240px] '} `}>
         {
-          image.map((image, id) => {
+          images.map((image, id) => {
             return (
-              <img className='relative rounded max-w-full h-[110px] object-cover align-middle' src={image} alt={title + 'Image'} key={id + title} />
+              <Image images={images} image={image} key={id} />
             )
           })
         }
       </div>
-      <button onClick={handleClick} className=' flex mt-5 py-4 px-12 justify-between items-center self-end rounded bg-secondary text-primary text-sm tracking-widest uppercase font-extrabold cursor-pointer'>View full gallery</button>
-
+      <button onClick={handleButtonClick} className=' flex mt-5 py-4 px-12 justify-between items-center self-end rounded bg-secondary text-primary text-sm tracking-widest uppercase font-extrabold cursor-pointer'>View full gallery</button>
     </article>
   )
 }
