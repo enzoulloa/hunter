@@ -8,7 +8,7 @@ const Image = ({ image, images }) => {
   }
   return (
     <>
-      <img onClick={handleImageClick} className='relative rounded max-w-full h-[110px] object-cover align-middle' src={image} alt='image' />
+      <img onClick={handleImageClick} className='relative rounded max-w-full h-[110px] w-full object-cover align-middle' src={image} alt='image' />
       <Slider image={image} modalState={modalState} images={images} setModalState={setModalState} />
     </>
   )
