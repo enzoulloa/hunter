@@ -1,15 +1,23 @@
-import { useState } from 'react'
+import { useState, useRef } from 'react'
+import useObserver from '../hooks/useObserver'
 import Image from './Image'
 
 const Work = ({ images, number, title, category }) => {
   const [button, setButton] = useState(false)
+  const animateRef = useRef()
+  const observer = useObserver(animateRef)
+
+  if (observer === true) {
+    animateRef.current.classList.remove('opacity-0')
+    animateRef.current.classList.add('opacity-100')
+  }
 
   const handleButtonClick = () => {
     setButton(!button)
   }
 
   return (
-    <article className='w-full flex flex-col items-stretch'>
+    <article ref={animateRef} className='w-full flex flex-col items-stretch transition duration-700 ease-in opacity-0 '>
       <div className=' flex flex-col items-start justify-between mb-5'>
         <h3 className=' text-2xl leading-[30px] font-bold'>
           <span className=' text-secondary text-lg font-bold'>{number + ' '}</span>

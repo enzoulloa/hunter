@@ -1,6 +1,16 @@
+import { useRef } from 'react'
+import useObserver from '../hooks/useObserver'
 const About = () => {
+  const animateRef = useRef()
+  const observer = useObserver(animateRef)
+
+  if (observer === true) {
+    animateRef.current.classList.remove('opacity-0')
+    animateRef.current.classList.add('opacity-100')
+  }
+
   return (
-    <section id='about' className=' py-20 w-full px-5 mx-auto max-w-7xl '>
+    <section ref={animateRef} id='about' className=' py-20 w-full px-5 mx-auto max-w-7xl transition duration-700 ease-in opacity-0'>
       <div className=' grid justify-start justify-items-start items-center content-center grid-cols-1 gap-x-32 gap-y-20 grid-flow-row'>
         <div>
           <img className=' w-full max-w-md object-cover align-middle rotate-12' src='https://assets.website-files.com/6005526df587c631c25dcda8/6009822aad8764b44f03310f_About%20Image%201.jpg' alt='' />
