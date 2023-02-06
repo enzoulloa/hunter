@@ -18,7 +18,7 @@ const Work = ({ images, number, title, category }) => {
 
   return (
     <article ref={animateRef} className='w-full flex flex-col items-stretch transition duration-700 ease-in opacity-0 '>
-      <div className=' flex flex-col items-start justify-between mb-5'>
+      <div className=' flex flex-col items-start justify-between mb-5 md:items-center md:flex-row '>
         <h3 className=' text-2xl leading-[30px] font-bold'>
           <span className=' text-secondary text-lg font-bold'>{number + ' '}</span>
           {title}
@@ -27,13 +27,13 @@ const Work = ({ images, number, title, category }) => {
           {
             category.map((element, id) => {
               return (
-                <p key={id + element} className=' py-[6px] px-5 text-xs rounded-full bg-primary font-semibold text-opacity-50 text-white'>{element}</p>
+                <p key={id + element} className=' py-[6px] px-5 text-xs rounded-full bg-primary font-semibold text-opacity-50 text-white md:text-sm'>{element}</p>
               )
             })
          }
         </div>
       </div>
-      <div className={` grid gap-5 grid-cols-2 overflow-hidden w-full will-change-[height] transition-height duration-300 ease-out ${button ? 'h-[630px]' : ' h-[240px] '} `}>
+      <div className={` grid gap-5 grid-cols-2 overflow-hidden w-full will-change-[height] transition-height duration-300 ease-out ${button ? 'h-[630px] md:h-[1280px]' : ' h-[240px] '} `}>
         {
           images.map((image, id) => {
             return (
