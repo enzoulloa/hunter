@@ -21,14 +21,14 @@ const Form = () => {
       </div>
       <div className=' my-5 self-start'>
         <p className=' mb-1 text-[10px] font-bold tracking-widest uppercase'>I would like to</p>
-        <label className=' text-sm font-normal block cursor-pointer' htmlFor=''>
-          <input className=' accent-black' type='checkbox' name='' id='' />Hire you for a project
+        <label className=' text-sm font-normal block cursor-pointer'>
+          <input className=' accent-black' type='checkbox' />Hire you for a project
         </label>
-        <label className=' text-sm font-normal block cursor-pointer' htmlFor=''>
-          <input className=' accent-black' type='checkbox' name='' id='' />Ask a question
+        <label className=' text-sm font-normal block cursor-pointer'>
+          <input className=' accent-black' type='checkbox' />Ask a question
         </label>
-        <label className=' text-sm font-normal block cursor-pointer' htmlFor=''>
-          <input className=' accent-black' type='checkbox' name='' id='' />Talk partnership
+        <label className=' text-sm font-normal block cursor-pointer'>
+          <input className=' accent-black' type='checkbox' />Talk partnership
         </label>
       </div>
       <div className=' self-start w-full'>
