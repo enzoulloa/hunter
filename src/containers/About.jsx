@@ -23,8 +23,10 @@ const About = () => {
             <br />
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.<span className=' text-secondary'> Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.</span> Nunc ut sem vitae risus tristique posuere.
           </p>
-          <a className=' mt-5 bg-secondary py-5 px-10 flex justify-between items-center rounded text-primary_dark text-sm font-extrabold tracking-widest no-underline uppercase' href='#contact'> <p>Work with me</p>
-            <span>Icon</span>
+          <a className=' align-middle mt-5 bg-secondary py-5 px-10 flex justify-between items-center rounded text-primary_dark text-sm font-extrabold tracking-widest no-underline uppercase' href='#contact'> <p>Work with me</p>
+            <span className='material-symbols-outlined '>
+              keyboard_arrow_right
+            </span>
           </a>
         </div>
 

@@ -41,13 +41,13 @@ const Testimonials = () => {
         </div>
         <div className=' mx-auto w-4/5 flex justify-evenly items-center mt-10'>
           <button onClick={previous} className=' w-20 h-8 rounded-full bg-secondary text-primary_dark m-auto cursor-pointer text-4xl flex justify-center items-center'>
-            <span class='material-symbols-outlined'>
+            <span className='material-symbols-outlined'>
               arrow_back_ios
             </span>
           </button>
           <button onClick={next} className=' w-20 h-8 rounded-full bg-secondary text-primary_dark m-auto cursor-pointer text-4xl flex justify-center items-center'>
-            <span class='material-symbols-outlined'>
-              arrow_forward_ios
+            <span className='material-symbols-outlined'>
+              navigate_next
             </span>
           </button>
         </div>

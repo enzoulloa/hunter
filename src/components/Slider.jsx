@@ -25,7 +25,7 @@ const Slider = ({ image, modalState, setModalState, images }) => {
         <div className=' w-screen h-screen fixed top-0 left-0 bg-black bg-opacity-90 flex items-center justify-center z-50'>
           <div className=' w-[86vh] shadow-xl'>
             <button onClick={onClick} className=' absolute top-5 right-10 w-7 h-7 cursor-pointer rounded text-white '>
-              <span class='material-symbols-outlined text-6xl'>
+              <span className='material-symbols-outlined text-6xl'>
                 close
               </span>
             </button>
