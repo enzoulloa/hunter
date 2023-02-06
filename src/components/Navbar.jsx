@@ -20,7 +20,7 @@ const Navbar = () => {
         <img className={` w-[60px] left-[55px] max-w-full border-none absolute transition duration-200 ${logoTop ? 'opacity-100' : 'opacity-0'}`} src={text} alt='Hunter' />
       </a>
 
-      <a className={` hidden md:flex justify-center items-center transition-opacity duration-100 ease-linear ${logoTop ? 'opacity-100' : 'opacity-0'}  `} href=''>
+      <a className={` hidden md:flex justify-center items-center transition-opacity duration-100 ease-linear ${logoTop ? 'opacity-100' : 'opacity-0'}  `} href='#contact'>
         <div className='flex h-2 w-2 bg-secondary rounded-full mr-2'>
           <span className=' animate-ping bg-secondary h-full w-full rounded-full' />
         </div>
