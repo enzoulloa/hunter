@@ -27,13 +27,13 @@ const Work = ({ images, number, title, category }) => {
           {
             category.map((element, id) => {
               return (
-                <p key={id + element} className=' py-[6px] px-5 text-xs rounded-full bg-primary font-semibold text-opacity-50 text-white md:text-sm'>{element}</p>
+                <p key={id + element} className=' py-[6px] px-5 text-xs rounded-full bg-primary font-semibold text-opacity-60 text-white md:text-sm'>{element}</p>
               )
             })
          }
         </div>
       </div>
-      <div className={` grid gap-5 grid-cols-2 overflow-hidden w-full will-change-[height] transition-height duration-300 ease-out ${button ? 'h-[630px] md:h-[1280px]' : ' h-[240px] '} `}>
+      <div className={` grid gap-5 grid-cols-2 overflow-hidden w-full will-change-[height] transition-height duration-300 ease-out lg:grid-cols-3 lg:gap-10 ${button ? 'h-[630px] md:h-[1280px] lg:h-[800px]' : ' h-[240px] '} `}>
         {
           images.map((image, id) => {
             return (

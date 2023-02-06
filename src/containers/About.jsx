@@ -10,13 +10,13 @@ const About = () => {
   }
 
   return (
-    <section ref={animateRef} id='about' className=' py-20 w-full px-5 mx-auto max-w-7xl transition duration-700 ease-in opacity-0 md:py-[100px] md:px-10'>
-      <div className=' grid justify-start justify-items-start items-center content-center grid-cols-1 gap-x-32 gap-y-20 grid-flow-row'>
-        <div>
+    <section ref={animateRef} id='about' className=' py-20 w-full px-5 mx-auto max-w-7xl transition duration-700 ease-in opacity-0 md:py-[100px] md:px-10 lg:py-[120px] lg:px-[5%]'>
+      <div className=' grid justify-start justify-items-start items-center content-center grid-cols-1 gap-x-32 gap-y-20 grid-flow-row lg:grid-cols-2 lg:gap-x-[120px]'>
+        <div className='lg:w-[440px]'>
           <img className=' w-full max-w-md object-cover align-middle rotate-12' src='https://assets.website-files.com/6005526df587c631c25dcda8/6009822aad8764b44f03310f_About%20Image%201.jpg' alt='' />
           <img className=' w-full max-w-md object-cover align-middle -rotate-12' src='https://assets.website-files.com/6005526df587c631c25dcda8/6009822a840944eb78c55198_About%20Image%202.jpg' alt='' />
         </div>
-        <div className=' -order-12 flex flex-col items-start'>
+        <div className=' -order-12 flex flex-col items-start md:order-1'>
           <h2 className=' text-4xl mb-5 font-bold text-[56px] leading-[60px]'>Why I fell in love with photography</h2>
           <p className=' mt-5 text-opacity-50 text-white leading-7'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, <span className=' text-secondary'>eros dolor interdum nulla</span>, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
             <br />
