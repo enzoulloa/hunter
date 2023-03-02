@@ -9,7 +9,7 @@ const Contact = () => {
           <img className=' w-32 mb-5 border-secondary border-2 rounded-full' src={image} alt='Hunter' />
           <h2 className=' text-4xl mb-5 font-bold md:text-[56px]'>Feel inspired?</h2>
           <p className=' max-w-xl text-white text-opacity-50 text-lg leading-loose'>Lets connect! I'd love hear about your story and how I might be able to help through photography.</p>
-          <a className=' mt-10 py-4 px-10 rounded bg-secondary text-primary_dark text-sm font-extrabold tracking-widest uppercase cursor-pointer flex items-center' href=''>Email me
+          <a className=' mt-10 py-4 px-10 rounded bg-secondary text-primary_dark text-sm font-extrabold tracking-widest uppercase cursor-pointer flex items-center' href='https://www.linkedin.com/in/enzo-ulloa-2639a1194/'>Email me
             <span className='material-symbols-outlined '>
               keyboard_arrow_right
             </span>

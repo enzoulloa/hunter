@@ -8,7 +8,7 @@ const Footer = () => {
           <a className='flex w-10 h-10 justify-center items-center rounded-full bg-primary_dark max-w-full' target='_blank' href='https://www.instagram.com/' rel='noreferrer'><img className=' w-4' src='https://assets.website-files.com/6005526df587c631c25dcda8/602e20a9c46355b8607d7d11_Instagram.svg' alt='' /></a>
         </div>
         <div className=' flex flex-col justify-center items-center lg:flex-row'>
-          <p className=' my-1 text-primary_dark text-sm font-medium leading-8'>Designed with 🧙‍♂️ |<br className=' lg:hidden' /><a className=' my-1 no-underline text-sm font-medium' href=''>Powered by Webflow</a></p>
+          <p className=' my-1 text-primary_dark text-sm font-medium leading-8'>Designed with 🧙‍♂️ |<br className=' lg:hidden' /><a className=' my-1 no-underline text-sm font-medium' href='https://webflow.com/'>Powered by Webflow</a></p>
         </div>
       </div>
     </footer>
