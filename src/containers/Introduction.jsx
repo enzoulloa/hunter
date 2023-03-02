@@ -17,7 +17,7 @@ const Introduction = () => {
         <h1 className='text-[40px] leading-[48px] mt-0 mb-5 font-bold md:text-[64px] md:leading-[76px] '>Hi! I'm Hunter, <br />Freelance photograper </h1>
         <p className=' mt-3 text-base font-medium leading-7 text-white opacity-50 md:text-[22px] md:leading-[1.8]'>Based in Amsterdam, I specialize in conceptual photography and love to take photos with creativity and passion. </p>
         <a className=' flex items-center mt-10 px-10 py-4 text-center align-middle rounded bg-secondary text-sm text-primary_dark tracking-widest uppercase font-extrabold' href='#works'>Explore my work
-          <svg stroke='currentColor' fill='currentColor' stroke-width='0' viewBox='0 0 24 24' height='30' width='30' xmlns='http://www.w3.org/2000/svg'>
+          <svg stroke='currentColor' fill='currentColor' strokeWidth='0' viewBox='0 0 24 24' height='30' width='30' xmlns='http://www.w3.org/2000/svg'>
             <path fill='none' d='M0 0h24v24H0V0z' /><path d='M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z' />
           </svg>
         </a>

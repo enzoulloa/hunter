@@ -24,7 +24,7 @@ const About = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.<span className=' text-secondary'> Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.</span> Nunc ut sem vitae risus tristique posuere.
           </p>
           <a className=' align-middle mt-5 bg-secondary py-4 px-10 flex justify-between items-center rounded text-primary_dark text-sm font-extrabold tracking-widest no-underline uppercase md:mt-10' href='#contact'> <p>Work with me</p>
-            <svg stroke='currentColor' fill='currentColor' stroke-width='0' viewBox='0 0 24 24' height='30' width='30' xmlns='http://www.w3.org/2000/svg'>
+            <svg stroke='currentColor' fill='currentColor' strokeWidth='0' viewBox='0 0 24 24' height='30' width='30' xmlns='http://www.w3.org/2000/svg'>
               <path fill='none' d='M0 0h24v24H0V0z' /><path d='M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z' />
             </svg>
           </a>
