@@ -42,7 +42,7 @@ const Work = ({ images, number, title, category }) => {
           })
         }
       </div>
-      <button onClick={handleButtonClick} className=' flex mt-5 py-4 px-12 justify-between items-center self-end rounded bg-secondary text-primary text-sm tracking-widest uppercase font-extrabold cursor-pointer'>View full gallery
+      <button onClick={handleButtonClick} className=' w-full flex mt-5 py-4 px-12 justify-between items-center self-end rounded bg-secondary text-primary text-sm uppercase font-extrabold cursor-pointer'>View full gallery
         {button
           ? <span className='material-symbols-outlined'>expand_more</span>
 
