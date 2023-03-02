@@ -23,7 +23,8 @@ module.exports = {
         height: 'height'
       },
       animation: {
-        heightAnimation: 'height 1s ease 0s 1 normal both'
+        heightAnimation: 'height 1s ease 0s 1 normal both',
+        heightAnimation2: 'height 0.3s ease 0s 1 normal both'
       }
     }
   },
