@@ -41,7 +41,7 @@ const Testimonials = () => {
         </div>
 
         <button onClick={previous} className=' absolute right-[53%] top-auto bottom-0 left-auto w-20 h-8 rounded-full bg-secondary text-primary_dark m-auto cursor-pointer'>
-          <span class='material-symbols-outlined'>
+          <span className='material-symbols-outlined'>
             navigate_before
           </span>
         </button>
