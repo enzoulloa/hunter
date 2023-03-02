@@ -40,10 +40,10 @@ const Testimonials = () => {
 
         </div>
 
-        <button onClick={previous} className=' absolute right-[53%] top-auto bottom-0 left-auto w-20 h-8 rounded-full bg-secondary text-primary_dark m-auto cursor-pointer flex items-center justify-center'>
+        <button onClick={previous} className=' absolute right-[53%] top-auto bottom-0 left-auto w-20 h-8 rounded-full bg-secondary text-primary_dark m-auto cursor-pointer flex items-center justify-center' id='previous' aria-label='previous'>
           <svg stroke='currentColor' fill='currentColor' strokeWidth='0' viewBox='0 0 24 24' height='30' width='30' xmlns='http://www.w3.org/2000/svg'><path fill='none' d='M0 0h24v24H0z' /><path d='M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z' /></svg>
         </button>
-        <button onClick={next} className=' absolute left-[53%] top-auto bottom-0 right-auto w-20 h-8 rounded-full bg-secondary text-primary_dark m-auto cursor-pointer flex items-center justify-center '>
+        <button onClick={next} className=' absolute left-[53%] top-auto bottom-0 right-auto w-20 h-8 rounded-full bg-secondary text-primary_dark m-auto cursor-pointer flex items-center justify-center ' id='next' aria-label='next'>
           <svg stroke='currentColor' fill='currentColor' strokeWidth='0' viewBox='0 0 24 24' height='30' width='30' xmlns='http://www.w3.org/2000/svg'><path fill='none' d='M0 0h24v24H0z' /><path d='M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z' /></svg>
         </button>
 
