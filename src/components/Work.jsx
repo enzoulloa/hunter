@@ -44,9 +44,9 @@ const Work = ({ images, number, title, category }) => {
       </div>
       <button onClick={handleButtonClick} className=' w-full flex mt-5 py-4 px-12 justify-between items-center self-end rounded bg-secondary text-primary text-sm uppercase font-extrabold cursor-pointer'>View full gallery
         {button
-          ? <span className='material-symbols-outlined'>expand_more</span>
+          ? <svg stroke='currentColor' fill='currentColor' stroke-width='0' viewBox='0 0 24 24' height='20' width='20' xmlns='http://www.w3.org/2000/svg'><path fill='none' d='M0 0h24v24H0z' /><path d='M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z' /></svg>
 
-          : <span className='material-symbols-outlined'>expand_less</span>}
+          : <svg stroke='currentColor' fill='currentColor' stroke-width='0' viewBox='0 0 24 24' height='20' width='20' xmlns='http://www.w3.org/2000/svg'><path fill='none' d='M0 0h24v24H0z' /><path d='M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z' /></svg>}
       </button>
     </article>
   )
