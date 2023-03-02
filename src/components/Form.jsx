@@ -32,8 +32,8 @@ const Form = () => {
         </label>
       </div>
       <div className=' self-start w-full'>
-        <p className='mb-1 text-[10px] font-bold tracking-widest uppercase'>Message</p>
-        <textarea className=' caret-primary_dark text-sm leading-snug w-full h-auto min-h-[160px] resize-none p-4 align-middle bg-white hover:outline-none ' name='' id='' />
+        <label className='mb-1 text-[10px] font-bold tracking-widest uppercase' htmlFor='message'>Message</label>
+        <textarea className=' caret-primary_dark text-sm leading-snug w-full h-auto min-h-[160px] resize-none p-4 align-middle bg-white hover:outline-none ' name='message' id='message' />
       </div>
       <input className=' mt-10 py-4 px-10 bg-primary_dark text-white font-bold cursor-pointer rounded self-end' type='submit' value='Submit' />
     </form>
