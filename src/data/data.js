@@ -24,7 +24,7 @@ import ImgRealState5 from '../assets/img/RealEstate5.jpeg'
 import ImgRealState6 from '../assets/img/RealEstate6.jpeg'
 import ImgRealState7 from '../assets/img/RealEstate7.jpeg'
 import ImgRealState8 from '../assets/img/RealEstate8.jpeg'
-import ImgRealState9 from '../assets/img/RealEState9.jpeg'
+import ImgRealState9 from '../assets/img/RealEstate9.jpeg'
 
 const image1 = [Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img9]
 const image2 = [ImgInterior1, ImgInterior2, ImgInterior3, ImgInterior4, ImgInterior5, ImgInterior6, ImgInterior7, ImgInterior8, ImgInterior9]
