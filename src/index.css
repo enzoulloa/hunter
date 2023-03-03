@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-family: Inter, sans-serif;
     background-color: #021b29;
     line-height: 20px;
     color: #fff;
