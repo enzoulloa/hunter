@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <nav className=' w-full flex justify-between items-center '>
       <a className={` w-[130px] h-[60px] pl-0 flex overflow-hidden justify-start items-center rounded-full bg-secondary relative cursor-pointer transition-all duration-300 ${logoTop ? 'w-[130px]' : 'w-[60px]'} `} href='#introduction'>
-        <img className=' w-[30px] ml-[15px] max-w-full border-none' src={logo} alt='Hunter' loading='eager' />
+        <img className=' w-[30px] h-[30px] ml-[15px] max-w-full border-none' src={logo} alt='Hunter' loading='eager' />
         <img className={` w-[60px] left-[55px] max-w-full border-none absolute transition duration-200 ${logoTop ? 'opacity-100' : 'opacity-0'}`} src={text} alt='Hunter' loading='eager' />
       </a>
 

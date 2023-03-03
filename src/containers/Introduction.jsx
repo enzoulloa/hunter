@@ -22,7 +22,7 @@ const Introduction = () => {
           </svg>
         </a>
       </div>
-      <img className=' mt-10 opacity-80 lg:absolute lg:left-auto lg:top-auto lg:right-0 lg:bottom-0 max-h-[90%] -z-10' src={img} alt='Introduction Image' loading='eager' />
+      <img className=' w-[280px] h-[280px] mt-10 opacity-80 lg:absolute lg:left-auto lg:top-auto lg:right-0 lg:bottom-0 max-h-[90%] -z-10 md:w-[688px] md:h-[688px] lg:w-[710px] lg:h-[710px]' src={img} alt='Introduction Image' loading='eager' />
     </section>
   )
 }
