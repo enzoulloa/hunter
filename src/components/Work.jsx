@@ -37,7 +37,9 @@ const Work = ({ images, number, title, category }) => {
         {
           images.map((image, id) => {
             return (
-              <Image images={images} image={image} key={id} />
+              <div key={id} className='relative'>
+                <Image images={images} image={image} />
+              </div>
             )
           })
         }
