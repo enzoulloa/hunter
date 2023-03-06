@@ -1,6 +1,6 @@
 import { useRef } from 'react'
 import useObserver from '../hooks/useObserver'
-import img from '../assets/HunterHeroImage.png'
+import img from '../assets/HunterHeroImage.webp'
 
 const Introduction = () => {
   const animateRef = useRef()

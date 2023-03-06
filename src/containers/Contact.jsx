@@ -1,5 +1,5 @@
 import Form from '../components/Form'
-import image from '../assets/HunterHeroImage.png'
+import image from '../assets/HunterHeroImage.webp'
 
 const Contact = () => {
   return (
