@@ -6,13 +6,13 @@ import Contact from '../containers/Contact'
 
 const Main = () => {
   return (
-    <main>
-      <Introduction />
+    <>
+      <Introduction />s
       <Works />
       <About />
       <Clients />
       <Contact />
-    </main>
+    </>
   )
 }
 
