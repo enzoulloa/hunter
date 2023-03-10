@@ -7,7 +7,7 @@ import Contact from '../containers/Contact'
 const Main = () => {
   return (
     <>
-      <Introduction />s
+      <Introduction />
       <Works />
       <About />
       <Clients />
